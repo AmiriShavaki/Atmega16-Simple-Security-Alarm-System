@@ -1,0 +1,35 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+rx_buffer                                                                         0x0160       8
+pre                                                                               0x0168       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+rx_wr_index                                                                       R5           1
+rx_rd_index                                                                       R4           1
+rx_counter                                                                        R7           1
+rx_buffer_overflow                                                                R2.0      1bit
+PIR_flg                                                                           R8,R9        2
+magnet_flg                                                                        R10,R11      2
+active                                                                            R12,R13      2
+r                                                                                 R6           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ext_int1_isr                                                                      0x000D3      2
+ext_int2_isr                                                                      0x000D5      2
+usart_rx_isr                                                                      0x000D7     41
+main                                                                              0x00100    139
+putchar                                                                           0x0018B      7
+put_usart_G100                                                                    0x00192     13
+_print_G100                                                                       0x0019F    308
+printf                                                                            0x002D3     37
+strlen                                                                            0x002F8     12
+strlenf                                                                           0x00304     13
