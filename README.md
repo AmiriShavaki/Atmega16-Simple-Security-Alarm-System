@@ -1,5 +1,4 @@
 
-
 https://user-images.githubusercontent.com/59307090/210869037-194e1e5c-2ef7-4856-b5c9-0e1e7e24c5a1.mp4
 
 
@@ -14,6 +13,7 @@ https://user-images.githubusercontent.com/59307090/210869037-194e1e5c-2ef7-4856-
 + SIM800L
 + DFPlayer Mini
 + PIR and door sensors
++ STK500 (as a programmer for AVR microcontrollers)
 + 4700uF 6.3v Capacitor
 + 3.3k and 2.2k ohms resistors
 + BD140 and BD139 transistors to drive output TTL voltage of the PIR sensor
