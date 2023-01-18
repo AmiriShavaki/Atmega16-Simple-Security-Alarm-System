@@ -260,19 +260,14 @@ while (1) {
       if(active==1) {
           PORTC.2=1;
               
-          if(PIR_flg == 1) {    
-                    
-            //PORTC.1=1; // TEST LED (on)
-                  
+          if(PIR_flg == 1) {  
               printf("ATD+989231479908;");
               putchar(13);
               putchar(10);                
                     
-            //PORTC.0=1-PORTC.0;
               delay_ms(1000);  
                 
               PIR_flg = 0;
-            //PORTC.1=0; // TEST LED (off)
           } 
           
           if(magnet_flg == 1) {
